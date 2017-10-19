@@ -9,6 +9,6 @@ module.exports = function (app) {
   app.use('/weather', router);
 };
 
-router.get('/', function (req, res, next) {
+router.get('/:zipCode', function (req, res, next) {
 
 });
